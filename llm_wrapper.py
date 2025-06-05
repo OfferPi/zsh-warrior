@@ -71,6 +71,7 @@ def get_config() -> dict:
         "host": "http://localhost:11434",    # Ollama default endpoint
         "model": "qwen2.5-coder:3b",         # Default model to use
         "temperature": 0.5,                  # Default randomness setting
+        "logging": false,                    # Default logging state
     }
 
     config = {}
@@ -177,3 +178,4 @@ if __name__ == "__main__":
         # Catch any unexpected exceptions in the main flow.
         logging.exception("Unexpected error in main execution.")
         print(f"Error: {e}")
+
