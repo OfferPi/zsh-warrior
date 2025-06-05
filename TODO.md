@@ -23,4 +23,8 @@ A checklist of improvements and features to add.
 
 - [ ] **Include environment information** in the LLM prompt  
   Inject details about the system into prompts for better responses.
+  Inject default editor.
+  Inject OS Version.
+  Inject Packet manager.
+  Maybe inject available commands.
 
