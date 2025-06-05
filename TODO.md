@@ -2,9 +2,6 @@
 
 A checklist of improvements and features to add.
 
-- [ ] **Add “keep alive” to Ollama** in the `llm_wrapper.py` script  
-  Prevent Ollama from timing out.  
-
 - [ ] **Add a “super mode”** that uses a different model and context  
   Allow switching to a higher-capacity model.  
   Provide extra context to the model in this mode.
