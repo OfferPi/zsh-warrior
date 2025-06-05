@@ -24,9 +24,9 @@ def configure_logging():
         )
         logging.info(f"Logging initialized. Writing to logfile: {log_file}")
     else:
-        # Otherwise, log INFO and higher to stderr with a simple format.
+        # Otherwise, log ERROR and higher to stderr with a simple format.
         logging.basicConfig(
-            level=logging.INFO,
+            level=logging.ERROR,
             format="%(asctime)s - %(levelname)s - %(message)s",
             datefmt="%Y-%m-%d %H:%M:%S"
         )
