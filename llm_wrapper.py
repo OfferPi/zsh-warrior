@@ -178,4 +178,3 @@ if __name__ == "__main__":
         # Catch any unexpected exceptions in the main flow.
         logging.exception("Unexpected error in main execution.")
         print(f"Error: {e}")
-
